@@ -1,7 +1,22 @@
+using Application.Interfaces;
+using Application.Service;
+using Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+// Add services
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+
+// Dependency Injection
+builder.Services.AddScoped<ITodoRepository, TodoRepository>();
+builder.Services.AddScoped<TodoService>();
+
+// Dependency Injection
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<EmployeeService>();
 
 var app = builder.Build();
 

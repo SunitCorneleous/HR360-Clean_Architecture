@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRM-MVC", "HRM\HRM-MVC.csproj", "{DC12B545-F6ED-4990-BAAD-5D7C05855756}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{930D0DE7-38EB-4267-AE92-4C87D9EE774B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{EC25CA54-B8A2-4060-96A1-256B5C3D0E57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoWebApi", "TodoWebApi\TodoWebApi.csproj", "{6CA22C36-7F8B-4D71-8EAF-519198C42B94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EC25CA54-B8A2-4060-96A1-256B5C3D0E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC25CA54-B8A2-4060-96A1-256B5C3D0E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC25CA54-B8A2-4060-96A1-256B5C3D0E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA22C36-7F8B-4D71-8EAF-519198C42B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA22C36-7F8B-4D71-8EAF-519198C42B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA22C36-7F8B-4D71-8EAF-519198C42B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA22C36-7F8B-4D71-8EAF-519198C42B94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
